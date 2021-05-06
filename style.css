@@ -1,0 +1,39 @@
+.soccer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darkgreen;
+  margin: 0;
+  padding: 0;
+}
+.soccer-pic {
+  border: solid red 1px;
+
+  position: relative;
+}
+.soccer-caption {
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  padding: 20px;
+  top: 50px;
+  right: 50px;
+}
+.about-me-caption {
+  font-size: 30px;
+  color: white;
+  backdrop-filter: blur(12px);
+  position: absolute;
+  padding: 20px;
+  bottom: 50px;
+  left: 50px;
+}
+.touch-caption {
+  font-size: 30px;
+  color: white;
+  backdrop-filter: blur(12px);
+  position: absolute;
+  padding: 20px;
+  bottom: 50px;
+  right: 50px;
+}
